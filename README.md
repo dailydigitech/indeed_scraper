@@ -1,1 +1,1 @@
-# detik_scraper
+# indeed_scraper
