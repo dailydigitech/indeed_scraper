@@ -36,7 +36,7 @@ def get_total_pages(query, location):
     # scraping step
     total_pages = []
     soup = BeautifulSoup(res.text, 'html.parser')
-    # print(soup.prettify())
+    soup.prettify()
     pagination = soup.find('ul', 'pagination-list')
     # print(pagination)
     pages = pagination.find_all('li')
